@@ -1,1 +1,1 @@
-# ensemble-edge/examples
+# Examples
