@@ -20,7 +20,7 @@ We pledge to make participation in our community a harassment-free experience fo
 Violations may result in temporary or permanent ban.
 
 ## Reporting
-Report issues to conduct@ensemble-edge.dev
+Report issues to conduct@ensemble.ai
 
 ## Attribution
 Adapted from Contributor Covenant v2.1

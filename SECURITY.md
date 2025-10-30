@@ -2,7 +2,7 @@
 
 ## Reporting a Vulnerability
 
-Email: security@ensemble-edge.dev
+Email: security@ensemble.ai
 
 Please include:
 - Description of the vulnerability
