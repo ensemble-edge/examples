@@ -12,7 +12,7 @@ If you need help with Ensemble examples, there are several ways to get support:
 
 ### Community Support
 
-- **[GitHub Discussions](https://github.com/ensemble-edge/edgit/discussions)** - Ask questions and discuss
+- **[GitHub Discussions](https://github.com/orgs/ensemble-edge/discussions)** - Ask questions and discuss
 - **[GitHub Issues](https://github.com/ensemble-edge/examples/issues)** - Report issues with examples
 
 ### Contact
