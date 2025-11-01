@@ -1,59 +1,75 @@
-# Contributing to Ensemble Edge
+# Contributing to Ensemble Examples
 
-Thank you for your interest in contributing to Ensemble Edge! 
+Thank you for your interest in contributing examples! This guide will help you get started.
 
 ## Quick Start
 
-1. Fork the repository
-2. Clone your fork: `git clone https://github.com/YOUR_USERNAME/REPO_NAME.git`
-3. Create a branch: `git checkout -b feature/your-feature-name`
-4. Make your changes
-5. Test your changes: `npm test`
-6. Commit: `git commit -m "feat: add amazing feature"`
-7. Push: `git push origin feature/your-feature-name`
-8. Create a Pull Request
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/ensemble-edge/examples.git
+   cd examples
+   ```
 
-## Development Setup
-```bash
-npm install
-npm run dev    # Start development
-npm test       # Run tests
-npm run build  # Build for production
+2. **Explore existing examples**
+   Browse the repository to understand the structure and patterns
+
+3. **Create your example**
+   Follow the structure guidelines below
+
+## Example Structure
+
+Each example should be self-contained and follow this structure:
+
+```
+example-name/
+├── README.md           # Clear explanation of what it demonstrates
+├── package.json        # Dependencies (if applicable)
+├── .edgit/            # Edgit configuration
+│   └── components.json
+├── src/               # Source code
+└── tests/             # Tests (optional but encouraged)
 ```
 
-## Commit Convention
+### README Requirements
 
-We use [Conventional Commits](https://www.conventionalcommits.org/):
+Every example needs a comprehensive README with:
 
-- `feat:` New feature
-- `fix:` Bug fix
-- `docs:` Documentation changes
-- `style:` Code style changes (formatting, etc)
-- `refactor:` Code changes that neither fix bugs nor add features
-- `test:` Adding or updating tests
-- `chore:` Maintenance tasks
+- **Title**: Clear, descriptive name
+- **Description**: What this example demonstrates
+- **Prerequisites**: Required tools, accounts, API keys
+- **Setup**: Step-by-step installation instructions
+- **Usage**: How to run the example
+- **Key Concepts**: What you'll learn
+- **Related**: Links to relevant documentation
 
-## Pull Request Guidelines
+## Submitting an Example
 
-- Keep PRs focused and small
-- Update tests and documentation
-- Ensure all checks pass
-- Link related issues
-- Request review from maintainers
+1. **Create a branch**
+   ```bash
+   git checkout -b examples/your-example-name
+   ```
 
-## Code Style
+2. **Add your example**
+   - Create a new directory
+   - Add all necessary files
+   - Include comprehensive README
+   - Test thoroughly
 
-- TypeScript required for new code
-- Follow existing patterns
-- Use meaningful variable names
-- Comment complex logic
+3. **Commit your changes**
+   ```bash
+   git add examples/your-example-name
+   git commit -m "docs(examples): add your-example-name"
+   ```
 
-## Need Help?
+4. **Push and create PR**
+   ```bash
+   git push origin examples/your-example-name
+   ```
 
-- Open an issue for bugs
-- Start a discussion for features
-- Join our Discord: [coming soon]
+## Code of Conduct
 
-## License
+This project follows the [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you agree to uphold this code.
 
-By contributing, you agree that your contributions will be licensed under the same license as the project.
+## Trademark
+
+Ensemble® is a registered trademark of Higinio O. Maycotte.

@@ -15,3 +15,8 @@ This repository contains working examples demonstrating how to build, version, a
 ## License
 
 MIT
+
+
+## Trademark
+
+Ensemble® is a registered trademark of Higinio O. Maycotte.
