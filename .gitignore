@@ -20,7 +20,7 @@ Thumbs.db
 .env.*.local
 
 # Local planning and notes (not committed)
-.planning/todos/       # All todos stay local (WIP, complete, everything)
-.planning/testing/     # Internal testing notes
+.planning/todos/
+.planning/testing/
 .local/
 .dev-notes/
